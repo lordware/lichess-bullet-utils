@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Lichess bullet utils",
+    "description": "Little bullet extension",
+    "version": "1",
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://lichess.org/*",
+                "https://lichess.org/*"
+            ],
+           "js": [
+                "./code.js"
+            ]
+        }
+    ]
+}
