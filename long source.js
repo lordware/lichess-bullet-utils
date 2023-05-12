@@ -95,8 +95,6 @@ setTimeout(() => {
     return label;
   }
 
-  document.getElementById("user_tag").click();
-  document.getElementById("user_tag").click();
   let prevMyTimer = null;
   let prevOpTimer = null;
   
