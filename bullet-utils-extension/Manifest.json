@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Lichess bullet utils",
-    "description": "Little bullet extension",
+    "description": "Bullet utils",
     "version": "1",
     "permissions": [
         "storage"
